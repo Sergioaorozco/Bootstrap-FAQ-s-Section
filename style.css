@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, #dce35b, #45b649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.info {
+    width: 70%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 14px;
+    background-image: url(images/bg-pattern-desktop.svg);
+}
+
+.faqs {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 40px;
+    margin-block-end: 30px;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.faq-image {
+    text-align: center;
+}
+
+.attribution {
+    text-align: center;
+    color: white;
+}
+
+
+.faq-image {
+    font-family: 'Outfit', sans-serif;;
+    font-weight: 700;
+}
